@@ -72,7 +72,7 @@ Ahora bien, ante esta situación, surge la necesidad de una plataforma especiali
 
         - CRITERIOS DE ACEPTACIÓN: El formulario de registro debe ser intuitivo y sencillo de completar, con campos obligatorios para garantizar la recopilación de la información necesaria para crear una cuenta. Tras la inscripción, quedrá regitrado el usuario en la plataforma y ya podrá realizar sus pedidos y disfrutar de todos nuestros servicios.
 
-    COMPRAS: Como comprador dentro de la plataforma quiero poder seleccionar los productos de mi preferencia, tener un carrito de compra, ver el resumen y poder realizar un Check Out, también desearía poder tener facilidad de medios de pago.
+    COMPRAS: Como comprador dentro de la plataforma quiero poder seleccionar los productos de mi preferencia, tener un carrito de compra, ver el resumen y poder realizar un Check Out, también desearía poder tener facilidad de medios de pago
 
         - CRITERIOS DE ACEPTACIÓN: Debe haber un área dedicada a la venta de productos o Marketplace, este debe estar alimentado con todos los productos disponibles que estarán ordenados por categorías. Cada producto debe tener la opción de agregar el carrito de compras. Dentro del carrito de compras se debe arrojar la información consolidada con el valor total de la compra y me debe llevar a una pasarela de pago para poder finalizar y confirmar el pedido.
 
