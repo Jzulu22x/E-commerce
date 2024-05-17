@@ -106,6 +106,8 @@ https://www.canva.com/design/DAGFT6gWjl4/vvQuC3XUElxz1BbAFRdLrw/edit?utm_content
 
 A continuación presentamos el diagrama de flujo de las tecnologias que se usarán para el desarrollo del proyecto, lo podrán encontrar en el siguiente link:
 
+https://drive.google.com/file/d/18BGg_5mGCDNMeOXpLgUAtDMLEH7T5Vgy/view?usp=sharing
+
 ---
 
 **_ ARBOL DE DECISIONES _**
@@ -115,3 +117,9 @@ Elaboramos un Arbol de Deciciones que eplica a detalle el funcionamiento de la p
 https://drive.google.com/file/d/1K6q2MifbZrzJMcLy_qdS7J3CLAqa7BhM/view?usp=sharing
 
 ---
+
+**_ HOJA DE ACTIVIDADES _**
+
+A contonuación presentamos la hoja de actividades del equipo de trabajo, para administras nuestras tareas decidimmos usar la plataforma de Trello, lo podrán encontrar en el siguiente link:
+
+https://trello.com/invite/b/oLwWOY3b/ATTI1a6b2ba7d767cb92a41bbd5cf3a1cf95FCAED94C/vinum-proggramer
