@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4F0C17;
+}
+
+#nav    {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.caintainer-nav{
+    background-color: #73453f;
+    height: 70px;
+}
+
+.name-vinum{
+  font-family:garamond;
+  font-weight: bold;
+}
+
+#nav{
+    font-family:garamond;
+    color: white;
+    font-size: larger;
+}
+#login{
+    position: relative;
+    top: -2px;
+}
+
+#cart{
+    position: relative;
+    top: -2px;
+}
+
+
+.backgroung-pp{
+    position: relative;
+    left:170px;
+    height: 640px;
+    width: 840px;
+    z-index: -1;
+}
+
+.wine-1{
+    position: relative;
+    left: 300px;
+    width: 500px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.text-wine{
+    color: white;
+    z-index: 1;
+    margin-top: -450px;
+    margin-left: 900px;
+    width: 400px;
+    font-family:garamond;
+    font-size: large;
+    text-align: center;
+}
+
+.welcome{
+    font-size: larger;
+    font-weight: bold;
+    font-size: xx-large;
+}

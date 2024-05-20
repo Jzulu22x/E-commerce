@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav    {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.caintainer-nav{
+    background-color: hsla(7, 29%, 35%, 0.747);
+    height: 70px;
+}
+
+.name-vinum{
+    font-family:garamond;
+    font-weight: bold;
+}
+#nav{
+    font-family:garamond;
+    color: white;
+    font-size: larger;
+}
+
+body{
+    background-image: url(/E-commerce/assets/backgroung-membership.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main{
+    display: flex;
+}
+
+.container-1-membership{
+    background-color:hsla(349, 86%, 11%, 0.712);
+    width: 500px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+
+.index-card-1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0px 20px 30px;
+    gap: 100px;
+    border-bottom: solid 2px white;
+}
+
+
+
+
+
+.title-target1{
+    color: whitesmoke;
+    font-family:garamond;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+#user{
+    color: white;
+}
+
+.membership-price{
+    color: white;
+    padding: 50px;
+    font-family:garamond;
+}
+
+.button-month{
+    background-color: #764640;
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    margin-left: 100px;
+    font-family:garamond;
+    font-size: x-large;
+    margin-top: -50px ;
+}
