@@ -5,14 +5,12 @@
 }
 
 body{
-    background-image: url(/E-commerce/assets/image.png);
+    background-image: url(/assets/fondo-pag.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.name-vinum{
-  font-family:garamond;
-  font-weight: bold;    
+.name-vinump-2{
+    width: 100px;
 }
 
 #nav{
@@ -24,6 +22,21 @@ body{
     justify-content: space-around;
 }
 
+#nav:hover{
+    cursor: pointer;
+}
+
+.wine-red{
+    margin-top: -300px;
+    margin-left: 200px;
+}
+
+.img-red{
+    width: 400px;
+    border-radius:20px ;
+    margin-top: -50px;
+}
+
 #login{
     position: relative;
     top: -2px;
@@ -33,15 +46,19 @@ body{
     position: relative;
     top: -2px;
 }
-
+.img-wine{
+    width: 200px;
+    
+}
 .text-wine{
     color: white;
-    margin-left: 800px;
+    margin-left: 700px;
     margin-top: 220px;
     width: 500px;
     font-family:garamond;
     font-size: x-large;
     text-align: center;
+    margin-top: 100px;
 }
 
 .welcome{

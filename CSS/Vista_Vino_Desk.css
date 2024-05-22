@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/assets/fondo-pag.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name-vinump-2{
+    width: 100px;
+}
+
+#nav{
+    font-family:garamond;
+    color: white;
+    font-size: larger;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav:hover{
+    cursor: pointer;
+}
+
+.wine-red{
+    margin-top: -350px;
+    margin-left: 200px;
+}
+
+.img-red{
+    width: 400px;
+    border-radius:20px ;
+    margin-top: -100px;
+    top: -10px;
+}
+
+#login{
+    position: relative;
+    top: -2px;
+}
+
+#cart{
+    position: relative;
+    top: -2px;
+}
+.img-wine{
+    width: 200px;
+    
+}
+.text-wine{
+    color: white;
+    margin-left: 700px;
+    margin-top: 220px;
+    width: 500px;
+    font-family:garamond;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.welcome{
+    font-size: larger;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.description{
+    font-size: smaller;
+    text-align: start;
+    line-height: 2.0;
+}
+
+.Button-Shopping{
+    background-color: #764640;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left:700px ;
+    border: none;
+    border: solid 1px;
+}
+.Button-Shopping:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    color: white;
+    background-color: #36040D;
+    box-shadow: 2px 2px 3px rgb(194, 194, 194);
+}
+.add-to-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #764640;
+    border: none;
+    border: solid 1px black;
+    border-radius: 40px;
+}
+.add{
+    display: flex;
+    gap: 15px;
+    background-color: #764640;
+    border-radius: 30px;
+    width:180px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.plus:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+    color: white;
+    background-color: #36040D;
+
+}
+
+.minum{
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+.minum:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out;
+    color: white;
+    background-color: #36040D;
+
+}
+
+.agg-numbrer{
+    font-size: 20px;
+    margin-top: 10px;
+        strong{
+            color: rgb(0, 0, 0);
+        }
+}
+.button-and-add{
+    display: flex;
+    gap: 100px;
+}
+
+.price{
+    color: white;
+    font-family:garamond;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.value{
+    color: white;
+    font-family:garamond;
+    margin-left: 220px;
+    margin-top: 10px;
+}
