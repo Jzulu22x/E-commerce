@@ -85,17 +85,24 @@ body {
     border-bottom: solid 2px white;
     margin-top: 10px;
     gap: 20px;
+
 }
 
 
 
-.plan-header .icon {
-    width: 24px;
+/* .plan-header .icon {
+    width: 50px;
     height: 24px;
     margin-right: 10px;
+} */
+
+.subscription-plan .Month {
+    font-size: 2em;
+    font-family: garamond;
+    margin-top: -40px;
 }
 
-.subscription-plan h2 {
+.Year{
     font-size: 2em;
     font-family: garamond;
     margin-top: -40px;

@@ -35,6 +35,7 @@ body{
     width: 400px;
     border-radius:20px ;
     margin-top: -50px;
+    top: -10px;
 }
 
 #login{
@@ -65,4 +66,19 @@ body{
     font-size: larger;
     font-weight: bold;
     font-size: xx-large;
+}
+
+.description{
+    font-size: smaller;
+    text-align: start;
+    line-height: 2.0;
+}
+
+.Button-Shopping{
+    background-color: #764640;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left:700px ;
+
 }
