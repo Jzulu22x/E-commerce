@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to connect to bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- link to connect to css -->
+    <link rel="stylesheet" href="/CSS/Vista_Vino_Desk.css">
+        <!-- window name -->
+    <title>Vista</title>
+</head>
+<body>
+    <header class="caintainer-nav d-flex justify-content-around w-100 text-light "><!--bootstrap class with its sizes-->
+        <div>
+            <h1><img  class="name-vinump-2" src="/assets/LOGOS/vinumBlanco.png" alt=""></h1><!--vinum icon-->
+        </div>
+        <div class="d-flex justify-content-between p-3"><!--bootstrap class to add navigation-->
+            <nav  id="nav">
+                <a>Inicio</a>
+                <a >Compras</a>
+                <a>Supscripción</a>
+                <a>Comunidad</a> 
+                <a>Sobre nosotros</a>
+                <a>Ayuda</a>   
+                <!--bootsrap icons-->
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-cart4" id="cart" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                </svg></a> </a>
+                <p>Ingresar/Registrarse</p>
+                <!--bootsrap icons-->
+                <a> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill " id="login" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                </svg></a>
+                
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="text-wine"><!--information-->
+            <p>Vino Tinto Santiago 1541 Merlot</p>
+            <hr>
+            <p class="description">CHARACTERISTICS: <br>  <!--information-->  
+
+                STRAIN: 100% Merlot
+                
+                COLOR: Ruby red with violet tones
+                
+                NOSE: Black fruits, with notes of cocoa and vanilla
+                
+                PAIRING: On the table it is unique when accompanying pastas, white meats and cheeses.
+                
+                ALCOHOLIC DEGREE: 12.9%
+                
+                SERVICE TEMPERATURE: 16-18 °C
+                
+                MOUTH: Medium tannins with black fruit and balanced finish</p>
+        </div>
+        <div class="button-and-add">
+            <button class="Button-Shopping">Buy</button><!--button buy-->
+            <section class="add-to-cart">
+                <div class="add">
+                    <!--bootsrap icons-->
+                    <button class="plus"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30 " fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg></button>
+                    <p class="agg-numbrer"><strong>0</strong></p>
+                    <!--bootsrap icons-->
+                    <button class="minum"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-dash" viewBox="0 0 16 16">
+                        <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8"/>
+                    </svg></button>
+                </div>
+            </section>
+        </div>
+        <div class="wine-red">  
+            <img class="img-red" src="/assets/100218-vino-tinto-1865-cabernet-sauvignon.png" alt=""><!--wine image-->
+        </div>
+
+        <div>
+            <h1 class="price">Price</h1>
+            <h3 class="value">280.99$USD</h3>
+        </div>
+    </main>
+    
+    <!-- link to connect to bootstrap js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
