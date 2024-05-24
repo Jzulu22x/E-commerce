@@ -1,0 +1,80 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: garamond;
+    background-color: #4F0C17;
+    color: #fff;
+    display: flex;
+    font-size: x-large;
+    background-image: url(/E-commerce/assets/hojita-roja.jpg);
+    background-repeat: no-repeat;
+}
+
+.icon-wine{
+    width: 100px;
+    height: 30px;
+    font-size: small;
+}
+
+.text-hpage{
+    display: flex;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+    padding: 100px;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.win2{
+    z-index: -1;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding-left: 100px;
+    margin-top: -10px;
+
+}
+
+
+.content img {
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5em;
+    }
+
+    .menu-button {
+        font-size: 1.5em;
+    }
+}
