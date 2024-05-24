@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-#nav    {
+#nav_desk    {
     width: 900px;
     display: flex;
     justify-content: space-around;
@@ -57,7 +57,11 @@ body{
 }
 
 
+.header {
+    display: none;
 
+    
+}
 
 
 .title-target1{
@@ -88,4 +92,205 @@ body{
     font-family:garamond;
     font-size: x-large;
     margin-top: -50px ;
+}
+.header{
+    display: none;
+}
+.hero img {
+    display: none;
+}
+.user-membership{
+    margin-right: 300px;
+
+}
+
+
+.content {
+display: none;
+
+}
+
+.subscription-plan {
+    display: none;
+}
+
+.subscription-plan1 {
+    display: none;
+
+}
+
+
+
+/* .plan-header .icon {
+    width: 50px;
+    height: 24px;
+    margin-right: 10px;
+} */
+
+.subscription-plan .Month {
+    display: none;
+}
+
+.Year{
+display: none;
+}
+
+.price {
+display: none; 
+}
+
+.subscribe-button {
+    display: none;
+}
+.plan-header{
+display: none;
+}
+.subscribe-button:hover {
+    display: none;
+}
+
+
+
+@media screen and(max-width:600px)  {
+    /* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head_desk{
+    display: none;
+}
+body {
+
+    font-family: garamond;
+    background-color:#4b0000; /* Fondo de la página */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 10%;
+    max-width: 480px;
+    background-color:#764640;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b0000;
+    padding: 10px;
+    height: 50px;
+    display: block;
+} */
+
+.header h1 {
+    font-size: 1.5em;
+    font-family:garamond;
+}
+
+.arrow-left , .menu-button {
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 67%, 0 30%);
+}
+
+.user-membership{
+    margin-right: 300px;
+
+}
+
+
+.content {
+    padding: 20px; /* Fondo del contenido principal */
+    text-align: center;
+
+}
+
+.subscription-plan {
+    background-color: #4b0000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 2px white;
+    margin-top: -90px;
+    gap: 20px;
+}
+
+.subscription-plan1 {
+    background-color: #4b0000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-bottom: solid 2px white;
+    margin-top: 10px;
+    gap: 20px;
+
+}
+
+
+
+/* .plan-header .icon {
+    width: 50px;
+    height: 24px;
+    margin-right: 10px;
+} */
+
+.subscription-plan .Month {
+    font-size: 2em;
+    font-family: garamond;
+    margin-top: -40px;
+}
+
+.Year{
+    font-size: 2em;
+    font-family: garamond;
+    margin-top: -40px;
+}
+
+.price {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.subscribe-button {
+    background-color: hsla(8, 32%, 63%, 0.678);
+    color:#4b0000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: garamond;
+    font-size: 1.5em;
+    font-weight: bold   ;
+    transition: background-color 0.3s ease;
+}
+.plan-header{
+    border-bottom: solid 1px white;
+}
+.subscribe-button:hover {
+    background-color: #a3541c;
+}
+
+
+
 }
